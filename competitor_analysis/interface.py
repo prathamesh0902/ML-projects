@@ -15,13 +15,12 @@ import numpy as np
 # st.write(a)
 # ------------------------------------
 
-st.title("Competitors Analysis Project")
-
-
 img = Image.open('images.png')
 resized_img = img.resize((200, 200)) 
-st.image(resized_img, caption="Resized Image")
+with st.container(horizontal_alignment="center"):
+    st.image(resized_img, caption="Resized Image")
 
+st.title("Competitors Analysis Project")
 
 
 store_df = pd.read_csv('store.csv')
