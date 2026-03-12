@@ -2,8 +2,11 @@ import streamlit as st
 from PIL import Image
 import pandas as pd
 import numpy as np
-import matplotlib as plt
+# import matplotlib as plt
 
+
+# ------ Terminal --------------------
+# pip install streamlit
 # streamlit run interface.py
 # ------------------------------------
 # Section that prints various objects
